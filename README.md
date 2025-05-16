@@ -1,7 +1,3 @@
-Thanks for the detailed project description! Here's a concise **summary and clarification** of the key components of the **Knowledge-Distillation-Safety** project, broken down for quick understanding and practical use:
-
----
-
 ## 🔐 **Project Overview**
 
 **Purpose**: Evaluate the **safety** of prompt-response pairs from language models using **Meta AI's LlamaGuard-7b**, which classifies responses into "safe" or "unsafe" based on predefined **safety categories** (e.g., hate\_speech, violence).
@@ -111,7 +107,3 @@ You’ll be prompted to enter the input file name **without** `.jsonl` (e.g., en
 * Uses **transformers pipeline** or direct model call to **LlamaGuard-7b**
 * Parses and evaluates prompt-response safety
 * Can be extended to log misclassifications, improve reporting, or integrate with other moderation tools
-
----
-
-Let me know if you’d like a walkthrough of the `evaluation.py` script logic, suggestions for improving safety evaluation pipelines, or help preparing custom data!
